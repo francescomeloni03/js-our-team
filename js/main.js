@@ -1,5 +1,5 @@
 
-const studenti = [
+const membri = [
     { nome: "Wayne Barnett", ruolo: "Founder & CEO", foto:"wayne-barnett-founder-ceo.jpg"  },
     { nome: "Angela Caroll", ruolo: "Chief Editor", foto:"angela-caroll-chief-editor.jpg"  },
     { nome: "Walter Gordon", ruolo:"Office Manager", foto:"walter-gordon-office-manager.jpg" },
@@ -8,6 +8,6 @@ const studenti = [
     { nome: "Barbara Ramos", ruolo: "Graphic Designer", foto:"barbara-ramos-graphic-designer.jpg"},
 ];
 
-console.log(studenti);
+console.log(membri);
 
 
