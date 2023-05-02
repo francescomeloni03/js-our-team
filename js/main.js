@@ -1,4 +1,6 @@
 
+
+
 const membri = [
     { nome: "Wayne Barnett", ruolo: "Founder & CEO", foto:"wayne-barnett-founder-ceo.jpg"  },
     { nome: "Angela Caroll", ruolo: "Chief Editor", foto:"angela-caroll-chief-editor.jpg"  },
@@ -8,6 +10,24 @@ const membri = [
     { nome: "Barbara Ramos", ruolo: "Graphic Designer", foto:"barbara-ramos-graphic-designer.jpg"},
 ];
 
-console.log(membri);
+for( let key in membri) {
+    console.log(membri[key]);
+}
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+// const contenitore = document.getElementsByClassName("contenitore");
+
+// document.write(`${membri}`);
 
 
