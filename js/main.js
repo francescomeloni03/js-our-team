@@ -14,20 +14,31 @@ for( let key in membri) {
     console.log(membri[key]);
 }
 
+for (i = 0; i < membri.length; i++) {
+
+    const membroSingolo = membri[i];
+    const stringaJs = document.getElementById("contenitore");
+    const stringaHtml = `Membro: <strong>${membroSingolo.nome}</strong><br> Lavoro: <strong>${membroSingolo.ruolo}</strong><br>`;
+    stringaJs.innerHTML += stringaHtml;
+    const imgFinals = "./img";
+    let blocco  = `<div class="box">`;
+    blocco += `<img src="${imgFinals}/${membroSingolo.foto}" alt="${membroSingolo.nome}" />`;
+    blocco += `</div>`;
+
+    stringaJs.innerHTML += blocco;
+
+
+
+}
+
+console.log("I membri sono stati stampati sulla pagina");
+
+
+
  
 
 
  
 
-
-
-
-
-
-
-
-// const contenitore = document.getElementsByClassName("contenitore");
-
-// document.write(`${membri}`);
 
 
